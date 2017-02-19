@@ -29,12 +29,12 @@ Change the folder names or locations as required
 Screenshots
 -----------
 
-<img src = "https://github.com/GerHarte/WhaleTinder/blob/master/static/img/screenshots/IMG_4803.PNG" />
+<img width=225 height=400 src = "https://github.com/GerHarte/WhaleTinder/blob/master/static/img/screenshots/IMG_4803.PNG" />
 
-<img src = "https://github.com/GerHarte/WhaleTinder/blob/master/static/img/screenshots/IMG_4804.PNG" />
+<img width=225 height=400 src = "https://github.com/GerHarte/WhaleTinder/blob/master/static/img/screenshots/IMG_4804.PNG" />
 
-<img src = "https://github.com/GerHarte/WhaleTinder/blob/master/static/img/screenshots/IMG_4805.PNG" />
+<img width=225 height=400 src = "https://github.com/GerHarte/WhaleTinder/blob/master/static/img/screenshots/IMG_4805.PNG" />
 
-<img src = "https://github.com/GerHarte/WhaleTinder/blob/master/static/img/screenshots/IMG_4806.PNG" />
+<img width=225 height=400 src = "https://github.com/GerHarte/WhaleTinder/blob/master/static/img/screenshots/IMG_4806.PNG" />
 
-<img src = "https://github.com/GerHarte/WhaleTinder/blob/master/static/img/screenshots/IMG_4807.PNG" />
+<img width=225 height=400 src = "https://github.com/GerHarte/WhaleTinder/blob/master/static/img/screenshots/IMG_4807.PNG" />
