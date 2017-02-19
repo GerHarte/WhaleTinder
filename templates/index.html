@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jTinder Touch Slider</title>
+    <link rel="stylesheet" type="text/css" href="static/css/jTinder.css">
+</head>
+<body>
+    <!-- start padding container -->
+    <div class="wrap">
+        <!-- start jtinder container -->
+        <div id="tinderslide">
+            <ul>
+               {% include 'tinderslide.html' %}
+            </ul>
+        </div>
+        <!-- end jtinder container -->
+    </div>
+    <!-- end padding container -->
+
+    <!-- jTinder trigger by buttons  -->
+    <div class="actions">
+        <a href="#" class="dislike"><i></i></a>
+        <a href="#" class="like"><i></i></a>
+    </div>
+
+    <!-- jTinder status text  -->
+    <div id="status"></div>
+
+    <!-- jQuery lib -->
+    <script type="text/javascript" src="static/js/jquery.min.js"></script>
+    <!-- transform2d lib -->
+    <script type="text/javascript" src="static/js/jquery.transform2d.js"></script>
+    <!-- jTinder lib -->
+    <script type="text/javascript" src="static/js/jquery.jTinder.js"></script>
+
+    <script>
+/**
+ * jTinder initialization
+ */
+$("#tinderslide").jTinder({
+	// dislike callback
+    onDislike: function (item) {
+	    // set the status text
+
+        var img_selected = item[0]['innerText'];
+
+        $('#status').html('Dislike image ' + (item.index()+1));
+
+        $.post( "disliked", { img: img_selected } );
+
+    },
+	// like callback
+    onLike: function (item) {
+	    // set the status text
+        var img_selected = item[0]['innerText'];
+
+        console.log(img_selected);
+
+        $('#status').html('Like image ' + (item.index()+1));
+
+        $.post( "liked", { img: img_selected } );
+    },
+
+	animationRevertSpeed: 200,
+	animationSpeed: 400,
+	threshold: 1,
+	likeSelector: '.like',
+	dislikeSelector: '.dislike'
+});
+
+/**
+ * Set button action to trigger jTinder like & dislike.
+ */
+$('.actions .like, .actions .dislike').click(function(e){
+	e.preventDefault();
+	$("#tinderslide").jTinder($(this).attr('class'));
+});
+
+
+
+
+    </script>
+</body>
+</html>
