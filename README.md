@@ -29,12 +29,12 @@ Change the folder names or locations as required
 Screenshots
 -----------
 
-<img src = "IMG_4803.PNG" />
+<img src = "https://github.com/GerHarte/WhaleTinder/blob/master/static/img/screenshots/IMG_4803.PNG" />
 
-<img src = "IMG_4804.PNG" />
+<img src = "https://github.com/GerHarte/WhaleTinder/blob/master/static/img/screenshots/IMG_4804.PNG" />
 
-<img src = "IMG_4805.PNG" />
+<img src = "https://github.com/GerHarte/WhaleTinder/blob/master/static/img/screenshots/IMG_4805.PNG" />
 
-<img src = "IMG_4806.PNG" />
+<img src = "https://github.com/GerHarte/WhaleTinder/blob/master/static/img/screenshots/IMG_4806.PNG" />
 
-<img src = "IMG_4807.PNG" />
+<img src = "https://github.com/GerHarte/WhaleTinder/blob/master/static/img/screenshots/IMG_4807.PNG" />
