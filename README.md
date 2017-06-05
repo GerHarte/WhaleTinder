@@ -1,11 +1,11 @@
 WhaleTinder
 -----------
 
-When working on (Kaggle Right Whale Recognition Challenge)[https://www.kaggle.com/c/noaa-right-whale-recognition] I was looking to build whale detector to locate the pixels in an image that contain a whale.
+When working on [Kaggle Right Whale Recognition Challenge](https://www.kaggle.com/c/noaa-right-whale-recognition) I was looking to build whale detector to locate the pixels in an image that contain a whale.
 
 After taking a few thousand images of whales, and breaking them into tiles I was left with a challenge of manually classifying them into which have whales and which don't to build a supervised classifier.
 
-Tinder's UI seemed like a very efficient way of classifying images into two buckets, so I found (jTinder)[https://github.com/do-web/jTinder] a javascript version of a similar UI and modified it to take images and sort them into folders based on which way you swipe.
+Tinder's UI seemed like a very efficient way of classifying images into two buckets, so I found [jTinder](https://github.com/do-web/jTinder) a javascript version of a similar UI and modified it to take images and sort them into folders based on which way you swipe.
 
 
 To Run
